@@ -1,0 +1,74 @@
+{
+    "init": {
+        "answers": [
+            {"content": "どんな研究してるの？", "nextId": "your_study"},
+            {"content": "今まで何作ってきたの？", "nextId": "creating_app"},
+            {"content": "どんな人か教えて！", "nextId": "personality"},
+            {"content": "やあ＾＾", "nextId": "greeting"}
+        ],
+        "question": "こんにちは！どんなご用件でしょうか？"
+    },
+    "your_study": {
+        "answers": [
+            {"content": "微小流量計測って？", "nextId": "micro_flow_measurement"},
+            {"content": "どんな方法で研究してるの？", "nextId": "how_to_study"},
+            {"content": "その他", "nextId": "other"}
+        ],
+        "question": "微小流量計測の精度向上について研究しています！"
+    },
+    "micro_flow_measurement": {
+        "answers": [
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "医療現場や投薬で使われていて、1ml/minの流量のことを言います！"
+    },
+    "how_to_study": {
+        "answers": [
+            {"content": "もっと具体的に知りたい！", "nextId": "more_study"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "主にシミュレーションと実験を行いその比較をして精度向上を目指しています"
+    },
+    "more_study": {
+        "answers": [
+            {"content": "Githubを見る", "nextId": "https://github.com/toshikingggg/lab"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "実験で得たデータから画像処理によって流量を計測しています"
+    },
+    "other": {
+        "answers": [
+            {"content": "問い合わせる", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "その他についてですね。コチラからお問い合わせできます。"
+    },
+    "creating_app": {
+        "answers": [
+            {"content": "同じ趣味を見つける掲示板アプリ", "nextId": "https://github.com/Haya372/HobbyBoard"},
+            {"content": "図書館の新刊情報の自動通知", "nextId": "https://github.com/toshikingggg/library_info_to-LINE"},
+            {"content": "画像処理計測システム", "nextId": "https://github.com/toshikingggg/lab"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "開発経験をより詳細に知りたい方はGithubを御覧ください(クリックするとGithubのページに遷移します)"
+    },
+    "personality": {
+        "answers": [
+            {"content": "今はどんな勉強をしているの？", "nextId": "activity"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "趣味はテニス🎾とアニメ鑑賞です。最近はweb関係の勉強にハマってます"
+    },
+    "activity": {
+        "answers": [
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "最近はWeb関係はReactとGoの勉強,それ以外はTOEICや秋の応用情報技術者試験に向けて勉強をしています!"
+    },
+    "greeting": {
+        "answers": [
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "やあ＾＾"
+    }
+}
